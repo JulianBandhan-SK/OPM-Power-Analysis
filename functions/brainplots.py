@@ -1,4 +1,6 @@
 # %% Brain Plot: by Dr. Sebastian Coleman
+# Original source: https://github.com/SCColeman/brain_plots
+# Thank you to Dr. Sebastian Coleman for the original implementation.
 """
 
 Ensure that atlas_img is set to the nifti file for the atlas you want to use in your script
@@ -428,4 +430,5 @@ def surface_brain_plotSC(img, subjects_dir, surf='inflated', cmap='cold_hot', sy
     cbar.set_label(cbar_label, fontsize=16, labelpad=0)
     
     return fig
+
 
